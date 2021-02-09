@@ -15,6 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="">
+    <!-----------------------------------------------font------------------------------------->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 </head>
 
@@ -22,19 +24,17 @@
 <body>
     <!----------------------------------Navbar--------------------------------------->
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand ml-5" href="#">Navbar</a>
+        <a class="navbar-brand ml-5" href="#"><img id="imgnav1" src="image/imgnav1.jpeg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-        <span>country information</span>
+        <span id="titre">Discover information on all countries</span>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><img class="mr-3" src="image/home(2).png" alt=""> Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
+
 
 
             </ul>
@@ -47,9 +47,9 @@
             <div class="col-12 col-sm-12 my-3" id="inputbutton">
                 <form action="">
                     <div class="form">
-                        <input type="text" class="form-control " placeholder="Country" id="inputCountry">
+                        <input type="text" class="form-control text-center" placeholder="Country" id="inputCountry">
                     </div> <br> <br>
-                    <button type="submit" class="btn btn-info w-100">Voir</button>
+                    <button type="submit" class="btn btn-info w-100">Search</button>
 
                 </form>
             </div>

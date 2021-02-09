@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 body {
     background-color: black;
 }
@@ -13,11 +18,22 @@ ul.navbar-nav>li>a {
     color: blanchedalmond;
     text-align: none;
     display: flex;
+    font-size: 20px;
+}
+
+#imgnav1 {
+    width: 75px;
+    height: 70px;
 }
 
 span {
     color: blanchedalmond;
-    margin-left: 400px;
+    margin-left: 350px;
+}
+
+#titre {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
 }
 
 
