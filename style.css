@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+
+/*-------------------------navbar------------------------------*/
+
+nav.navbar {
+    color: black;
+}
+
+ul.navbar-nav>li>a {
+    color: blanchedalmond;
+    text-align: none;
+    display: flex;
+}
+
+span {
+    color: blanchedalmond;
+    margin-left: 400px;
+}
+
+
+/*-------------------------navbar------------------------------*/
+
+#inputbutton {
+    background-image: url(image/img&.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 20px;
+}
+
+.box-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#city {
+    background-color: rgba(41, 128, 185, 0.75);
+}
+
+#capital {
+    background-color: rgba(43, 78, 181, 0.75);
+}
+
+#languages {
+    background-color: rgba(73, 74, 77, 0.75);
+}
+
+#demonym {
+    background-color: rgba(201, 206, 221, 0.75);
+}

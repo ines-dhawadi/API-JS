@@ -11,7 +11,7 @@ let apicall = function(ville) {
 
             document.querySelector('#nativeName').innerHTML = data.nativeName;
             document.querySelector('#population').innerHTML = data.population;
-            document.querySelector('#demonym').innerHTML = data.demonym;
+            document.querySelector('#region"').innerHTML = data.region;
         })
         .catch(err => console.log('Erreur:' + err)))
 
