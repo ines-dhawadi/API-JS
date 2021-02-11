@@ -13,7 +13,7 @@ function Affiche() {
             console.log(data);
 
 
-            for (let i = 0; i < 250; i++) {
+            for (let i = 0; i < 251; i++) {
                 document.querySelector('#city').innerHTML = data[i].name;
                 document.querySelector('#capital').innerHTML = data[i].capital;
                 document.querySelector('#demonym').innerHTML = data[i].demonym;
